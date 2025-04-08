@@ -1,0 +1,5 @@
+function switchLang(lang) {
+  for (let key in translations[lang]) {
+    document.getElementById(key).innerText = translations[lang][key];
+  }
+}
